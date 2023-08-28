@@ -13,12 +13,30 @@
 │      ├─ __init__.py
 │      ├─ models.py
 │      ├─ forms.py
+│      ├─ filter.py
 │      ├─ views/
-│      │   └─ main_views.py
+│      │   ├─ main_views.py
+|      |   ├─ answer_views.py
+|      |   ├─ question_views.py
+|      |   ├─ auth_views.py
+|      |   └─ question_views.py
 │      ├─ static/
-│      │   └─ style.css
+│      │   ├─ style.css
+│      │   ├─ bootstrap.min.css
+|      |   └─ bootstrap.min.js
 │      └─ templates/
-│            └─ index.html
+│            ├─ answer/
+│            │      └─ answer_form.html
+│            ├─ auth/
+│            │      ├─ login.html
+│            │      └─ signup.html
+│            ├─ question/
+│            │      ├─ question_detail.html
+│            │      ├─ question_form.html
+│            │      └─ question_list.html
+│            ├─ base.html
+│            ├─ form_errors.html
+│            └─ navbar.html
 └── config.py
 ```
 
